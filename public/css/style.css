@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Crimson+Text);
+
+.container {
+	width:700px !important;
+	height:auto;
+}
+
+.title {
+	text-align:center;
+	text-indent: -9999px;
+	background: url(/img/title.png) no-repeat;
+	height:156px;
+	width:313px;
+	margin:auto;
+}
+
+p.imglg{
+	text-align:center;
+}
+
+.input-append {
+	margin:20px 0;
+	text-align:center;
+}
+
+.input-append button.add-on {
+    height: inherit !important;
+}
+
+.searchq {
+	height:25px;
+	width:400px;
+	padding:1px 10px;
+}
+
+.user {
+	text-align:center;
+}
+.user h6{
+	font-weight:normal !important;
+	font-family: "Lucida Grande", Tahoma;
+	font-size: 12px;
+	font-weight: lighter;
+	font-variant: normal;
+	color: #666666;
+	text-align: center!important;
+	letter-spacing: 0.02em;
+}
+.user h6 a {
+	display:block;
+	line-height:15px;
+	color: #eee;
+	text-decoration: none;
+	background: #979797;
+	border-radius: 5px;
+}
+.user h6 a:hover {
+	background: #2daae2;
+}
+
+.tw {
+	padding:10px 0px;
+	border-bottom:1px solid #dedede;
+}
+
+div.text {
+	font-family: 'Crimson Text', serif !important;
+}
+
+p.tweet {
+	line-height: 150%;
+	font-size:18px !important;
+	padding:10px 0;
+}

@@ -1,0 +1,19 @@
+extends layout
+block content
+	h1.title My tweets
+	p.imglg: img(src="/img/logo.png", alt="Logo of my tweets")
+	
+	div.input-append
+		input(placeholder="Buscar...", id="q", class="searchq")
+		button(class="btn add-on")
+			li.icon-search
+
+	div#result
+		each tweet in tweets
+			div.tw
+				div.row-fluid
+					div.user.span2
+						h6: a(href="https://twitter.com/#{tweet.from_user}", target="_blank") #{tweet.from_user}
+						img(src="#{tweet.profile_image_url}")
+					div.text.span10
+						p.tweet #{tweet.text}
